@@ -3,7 +3,7 @@ CREATE TABLE BledyLog (
 	ErrNumber int NULL,
 	ErrSeverity int NULL,
 	ErrState int NULL,
-	ErrProcedure nvarchar(128) NULL,
+	ErrProcedure nvarchar(150) NULL,
 	ErrLine int NULL,
 	ErrMessage nvarchar(4000) NULL,
 	DataDodania datetime CONSTRAINT DF_BledyLog_DataDodania DEFAULT (GETDATE())
